@@ -20,7 +20,7 @@ enum Commands {
     Compile {
         #[arg(trailing_var_arg = true, allow_hyphen_values = true, num_args = 1..)]
         args: Vec<String>,
-        #[arg(long)]
+        #[arg(long, short)]
         output: String,
     },
 }

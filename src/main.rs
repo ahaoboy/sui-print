@@ -5,7 +5,7 @@ use std::error::Error;
 use std::fs::File;
 
 #[derive(Parser)]
-#[command(name = "test")]
+#[command(version)]
 struct Cli {
     #[command(subcommand)]
     command: Option<Commands>,

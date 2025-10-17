@@ -1,0 +1,9 @@
+[package]
+name = "sui-print"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libsui = "0.10"
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
